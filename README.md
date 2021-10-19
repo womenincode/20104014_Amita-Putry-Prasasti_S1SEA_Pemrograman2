@@ -1,2 +1,16 @@
-# 20104014_Amita-Putry-Prasasti_S1SEA_Pemrograman2
-Mata Kuliah Pemrograman 2
+# Modul 0 : Dasar Pemrograman Java
+
+## Dasar Teori
+
+<li>Keyword dalam Java</li>
+  Penjelasan Teori
+  <br>
+<li>Tipe Dasar</li>
+  Penjelasan Teori
+  <br>
+<li>Variabel</li>
+  Penjelasan Teori
+  <br>
+<li>Casting dan Promotion</li>
+  Penjelasan Teori
+ 
