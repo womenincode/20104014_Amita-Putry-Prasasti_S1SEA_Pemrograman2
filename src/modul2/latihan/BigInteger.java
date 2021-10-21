@@ -1,4 +1,4 @@
-package modul0.latihan;
+package modul2.latihan;
 
 public class BigInteger {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package modul0.percobaan;
+package modul2.percobaan;
 
 import java.util.Scanner;
 
