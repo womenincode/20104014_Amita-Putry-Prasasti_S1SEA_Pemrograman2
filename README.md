@@ -87,4 +87,72 @@ Soal :
 3. A + B - C
 
 Jawaban:
-1. Jabawan No. 1
+1. [Jawaban Soal No.1](https://github.com/womenincode/20104014_Amita-Putry-Prasasti_S1SEA_Pemrograman2/blob/modul2/src/modul2/latihan/BigInteger.java)
+
+#### Penjelasan
+```java
+long p = 2147483648
+```
+Sintax diatas jika dicoba akan menampilkan error seperti berikut ini:
+```
+java: integer number too large: 2147483648
+```
+Akibat dari error tersebut adalah Data yang berada di variabel P dibaca tipe data integer, sehingga jika ingin mendeklarasikan angka dengan jumlah banyak harus menggunakan huruf (suffix) L kapital, agar angka membaca variabel P dengan tipe data Long dan angka yang diinputkan dapat berjumlah banyak.
+
+
+2. [Jawaban Soal No.2](https://github.com/womenincode/20104014_Amita-Putry-Prasasti_S1SEA_Pemrograman2/blob/modul2/src/modul2/latihan/AnakAyam.java)
+
+#### Penjelasan
+```java
+  while (anak > 0) {
+            System.out.println("Anak ayam turun " + anak);
+            anak--;
+
+            if (anak != 0) {
+                System.out.println("Mati 1 tinggal " + anak);
+            } else {
+                System.out.println("Mati 1 tinggal Induknya");
+            }
+        }
+```
+Pada Sintax diatas melakukan sebuah pengkondisian untuk melakukan pengurangan secara berulang pada kondisi dimana anak ayam terus berkurang jika anak ayam tidak sama dengan nol (!=0) hingga pada kondisi terakhir, jika anak ayam telah habis di kurang '1', maka yang tersisa adalah "induknya".
+
+
+3. [Jawaban Soal No.3](https://github.com/womenincode/20104014_Amita-Putry-Prasasti_S1SEA_Pemrograman2/blob/modul2/src/modul2/latihan/BilanganAbc.java)
+
+#### Penjelasan
+
+Pada sintax di bawah ini merupakan perintah untuk melakukan input data sebanyak data yang diinginkan, kemudian data yang dimasukkan akan disimpan ke dalam variabel array.
+```java
+ System.out.print("Masukkan Jumlah Testcase: ");
+        t = input.nextInt();
+        a = new int[t];
+        b = new int[t];
+        c = new int[t];
+        
+```
+Kemudian, pada sintax di bawah ini yaitu perintah untuk melakukan perulangan dalam menginputkan angka/bilangan pada variabel A, B dan C.
+```java
+for (int i = 0; i < t; i++) {
+            System.out.print("\nMasukkan A" + (i + 1) + " : ");
+            a[i] = input.nextInt();
+            System.out.print("Masukkan B" + (i + 1) + " : ");
+            b[i] = input.nextInt();
+            System.out.print("Masukkan C" + (i + 1) + " : ");
+            c[i] = input.nextInt();
+        }
+ ```
+ 
+Dan, terakhir sintax di bawah ini yaitu untuk melakukan pengoperasian dalam penjumlahan dan pengurangan pada angka yang telah di masukkan ke dalam variabel array. Sintax di bawah ini menggunakan perulangan karena data yang dioperasikan lebih dari satu inputan.
+```java
+for (int i = 0; i < t; i++) {
+            System.out.print("\nA" + (i + 1) + " + B" + (i + 1) + " - C" + (i + 1) + " = ");
+            System.out.println(a[i] + b[i] - c[i]);
+        }
+ ```
+ 
+ <hr>
+ 
+ ## Kesimpulan
+ 
+Kesimpulan dari Praktikum Modul 2 ini adalah memperhatikan tipe data dalam pengimplementasian sintax/kode sangat penting diperhatikan, karena jika salah dalam menggunakan tipe data maka program dapat mengalami error dan tidak dapat dijalankan seperti soal nomor 1. 
