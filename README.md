@@ -86,6 +86,8 @@ Soal :
 2. Anak Ayam
 3. A + B - C
 
+<br></br>
+
 Jawaban:
 1. [Jawaban Soal No.1](https://github.com/womenincode/20104014_Amita-Putry-Prasasti_S1SEA_Pemrograman2/blob/modul2/src/modul2/latihan/BigInteger.java)
 
@@ -99,6 +101,7 @@ java: integer number too large: 2147483648
 ```
 Akibat dari error tersebut adalah Data yang berada di variabel P dibaca tipe data integer, sehingga jika ingin mendeklarasikan angka dengan jumlah banyak harus menggunakan huruf (suffix) L kapital, agar angka membaca variabel P dengan tipe data Long dan angka yang diinputkan dapat berjumlah banyak.
 
+<br></br>
 
 2. [Jawaban Soal No.2](https://github.com/womenincode/20104014_Amita-Putry-Prasasti_S1SEA_Pemrograman2/blob/modul2/src/modul2/latihan/AnakAyam.java)
 
@@ -117,6 +120,7 @@ Akibat dari error tersebut adalah Data yang berada di variabel P dibaca tipe dat
 ```
 Pada Sintax diatas melakukan sebuah pengkondisian untuk melakukan pengurangan secara berulang pada kondisi dimana anak ayam terus berkurang jika anak ayam tidak sama dengan nol (!=0) hingga pada kondisi terakhir, jika anak ayam telah habis di kurang '1', maka yang tersisa adalah "induknya".
 
+<br></br>
 
 3. [Jawaban Soal No.3](https://github.com/womenincode/20104014_Amita-Putry-Prasasti_S1SEA_Pemrograman2/blob/modul2/src/modul2/latihan/BilanganAbc.java)
 
