@@ -8,51 +8,51 @@ OOP adalah merupakan kepanjangan dari Object Oriented Programming. OOP merupakan
 
 2. Mendeklarasikan suatu Class </br>
 Class bertugas untuk mengumpulkan prosedur/fungsi dan variabel dalam satu tempat. Class merupakan blueprint dari sebuah objek atau cetakan untuk membuat objek. Contoh class sebagai berikut ini.
-```java
-public class Car{ 
-    // Body Class
-}
-```
+    ```java
+    public class Car{ 
+        // Body Class
+    }
+    ```
 </br>
 
 3. Mendeklarasikan suatu Atribut </br>
 Atribut merupakan bagian dari sebuah kelas yang masih berhubungan erat dari kelas tersebut. Atribut bisa juga disebut sebagai properti atau properties dari sebuah class.     Contohnya ketika memiliki sebuah class Motor, maka dapat menambahkan atribut seperti kecepatan motor, umur motor, ukuran, ban, warna dsb. Untuk lebih detailnya, contohkan pada program berikut:
-```java
-class Car {
-    // Attribute
-    int speed; 
-    int tire;
-}
-```
+    ```java
+    class Car {
+        // Attribute
+        int speed; 
+        int tire;
+    }
+    ```
 <br>
 
 4. Mendeklarasikan suatu Metode </br>
 Method berperan menjelaskan bagaimana suatu atribut beraksi. Peran yang dimaksud berupa tingkah laku (behavior) yang dapat digambarkan oleh suatu method. Misal class Manusia. Manusia tentu memiliki method berupa tingkah laku, seperti berpikir, berjalan, berbicara, makan dll. Maka tentunya method dapat disesuaikan dengan program yang dibuat.
-```java
-<modifier>  <return_type>  <nama_metode> 
-([daftar_argumen]) 
-[<statement>] 
-  } 
-    Contoh : public void info()
-    { 
-      System.out.println(warna);
-    }
-```
+    ```java
+    <modifier>  <return_type>  <nama_metode> 
+    ([daftar_argumen]) 
+    [<statement>] 
+    } 
+            Contoh : public void info()
+        { 
+            System.out.println(warna);
+        }
+    ```
 </br>
 
 5. Mengakses anggota suatu Objek </br>
 Objek (Object) adalah sebuah variabel instance yang merupakan wujud dari class. Instance merupakan wujud dari sebuah kelas. Sebuah objek digambarkan dengan variable dan method.
-```java
-public class Mobil { 
-public static void main(String args[]) 
-  { 
-    Mobil m=new Mobil();
-    m.warna=”hitam”; 
-    m.no_Plat=”KT 2837 UE”; 
-    m.info(); 
-  } 
-}
-```
+    ```java
+    public class Mobil { 
+    public static void main(String args[]) 
+        { 
+        Mobil m=new Mobil();
+        m.warna=”hitam”; 
+        m.no_Plat=”KT 2837 UE”; 
+        m.info(); 
+        } 
+    }
+    ```
 <hr>
 
 ## Praktikum
