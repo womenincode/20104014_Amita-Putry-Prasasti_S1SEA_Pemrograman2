@@ -1,6 +1,7 @@
 package modul4.percobaan;
 
 public class Tabungan {
+
     private String nama;
     private int noRekening;
     private int saldo;

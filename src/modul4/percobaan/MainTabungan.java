@@ -12,5 +12,6 @@ public class MainTabungan {
         System.out.println("Saldo Awal kamu\t: " + kamu.getSaldo());
         System.out.println("Nomor Pin saya\t: " + saya.getPin());
         System.out.println("Nomor Pin kamu\t: " + kamu.getPin());
+
     }
 }
