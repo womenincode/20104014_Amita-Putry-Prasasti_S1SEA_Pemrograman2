@@ -139,7 +139,7 @@ public class StudentRecordExample {
         ini.setName("Ini");
         Nama.setName("Nama");
 
-        //System.out.println( getName()); => kode yang berada di soal 'salah'
+        //System.out.println( getName()); => kode yang berada di soal 'error'
         System.out.println(wahyu.getName());
         System.out.println("Hitung = " + StudentRecord.getStudentCount());
     }
