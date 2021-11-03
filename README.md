@@ -87,6 +87,7 @@ Information Hiding adalah menyembunyikan attribute suatu objek dari objek lain. 
 ### Soal
 
 + ***Student Record***
+
 Buatlah 2 class dalam project kalian kemudia beri nama dan isi sebagai berikut :
 
 > Class StudentRecord
