@@ -1,4 +1,4 @@
-# Modul 5 : Konsep Inheritance
+# Modul 6 : Konsep Inheritance
 
 ## Praktikum Pemrograman 2
 
