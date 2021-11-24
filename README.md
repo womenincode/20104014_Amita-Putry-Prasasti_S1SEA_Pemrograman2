@@ -10,3 +10,4 @@
   3. [Modul4 : Dasar Pemrograman Berorientasi Objek](https://github.com/womenincode/20104014_Amita-Putry-Prasasti_S1SEA_Pemrograman2/tree/modul4)
   4. [Modul5 : Mengelola Class](https://github.com/womenincode/20104014_Amita-Putry-Prasasti_S1SEA_Pemrograman2/tree/modul5)
   5. [Modul6 : Konsep Inheritance](https://github.com/womenincode/20104014_Amita-Putry-Prasasti_S1SEA_Pemrograman2/tree/modul6)
+  6. [Modul7 : Overloading Dan Overriding](https://github.com/womenincode/20104014_Amita-Putry-Prasasti_S1SEA_Pemrograman2/tree/modul7)
