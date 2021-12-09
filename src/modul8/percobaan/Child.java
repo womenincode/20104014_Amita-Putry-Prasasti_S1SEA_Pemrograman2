@@ -6,4 +6,5 @@ public class Child extends Parent {
     public void info() {
         System.out.println("Ini Class Chid");
     }
+
 }
