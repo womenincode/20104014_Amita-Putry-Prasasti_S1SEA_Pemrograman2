@@ -11,3 +11,4 @@
   4. [Modul5 : Mengelola Class](https://github.com/womenincode/20104014_Amita-Putry-Prasasti_S1SEA_Pemrograman2/tree/modul5)
   5. [Modul6 : Konsep Inheritance](https://github.com/womenincode/20104014_Amita-Putry-Prasasti_S1SEA_Pemrograman2/tree/modul6)
   6. [Modul7 : Overloading Dan Overriding](https://github.com/womenincode/20104014_Amita-Putry-Prasasti_S1SEA_Pemrograman2/tree/modul7)
+  7. [Modul8 : Polimorfisme](https://github.com/womenincode/20104014_Amita-Putry-Prasasti_S1SEA_Pemrograman2/tree/modul8)
