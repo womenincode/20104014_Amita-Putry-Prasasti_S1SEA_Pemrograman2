@@ -157,7 +157,7 @@ Process finished with exit code 0
 
 **Analisis Kode Program di atas yaitu:**
 
-Pada kode di atas menggunakan kata kunci ekpensi yaitu `throw`, `try`, dan `catch`. Dimana output dari program di atas menyatakan `"File Tidak Ada"`, dari output tersebut program mengeksekusi perintah bahwa tidak ada data yang dimasukkan atau file yang diletakkan pada kode program, sehingga program mengeluarkan pesan output `File Tidak Ada` berdasarkan perintah di dalam `catch` yaitu `FileNotFoundException ex`.
+Pada kode di atas menggunakan kata kunci ekpensi yaitu `throw`, `try`, dan `catch`. Dimana output dari program di atas menyatakan `"File Tidak Ada"`, hal itu dikarenakan pada  `blok-try` yang berisi `method1` tidak ada data yang dimasukkan atau file yang diletakkan pada method tersebut, sehingga program melemparkan eksepsi ke `blok-catch` dan program mengeluarkan pesan output `File Tidak Ada` berdasarkan perintah di dalam `catch` yaitu `FileNotFoundException ex`.
 
 </br>
 
