@@ -10,9 +10,9 @@
 1. Menangani sendiri exception tersebut.
 2. Meneruskannya ke luar dengan cara membuat objek tentang exception tersebut dan melemparkannya (throw) keluar agar ditangani oleh kode yang memanggil method atau ```method yang di dalamnya terdapat exception``` tersebut.
 
-</br>
-
 Ada lima ```keyword``` yang digunakan oleh Java untuk menangani Exception yaitu ```try```, ```catch```, ```finally```, ```throw``` dan ```throws```.
+
+</br>
 
 + Tipe-tipe Exception
 
@@ -155,7 +155,7 @@ File Tidak Ada
 Process finished with exit code 0
 ```
 
-> Analisis Kode Program di atas yaitu:
+**Analisis Kode Program di atas yaitu:**
 
 Pada kode di atas menggunakan kata kunci ekpensi yaitu `throw`, `try`, dan `catch`. Dimana output dari program di atas menyatakan `"File Tidak Ada"`, dari output tersebut program mengeksekusi perintah bahwa tidak ada data yang dimasukkan atau file yang diletakkan pada kode program, sehingga program mengeluarkan pesan output `File Tidak Ada` berdasarkan perintah di dalam `catch` yaitu `FileNotFoundException ex`.
 
@@ -188,9 +188,33 @@ public class Latihan2 {
 }
 ```
 
-> Analisis Kode Program di atas yaitu:
+> Output
+
+`Running ke-1`
+```
+Masukkan Angka : 9
+Angka kurang dari atau sama dengan 10
+
+Process finished with exit code 0
+```
+
+`Running ke-2`
+
+```
+Masukkan Angka : 20
+Angka lebih dari 10
+Selesai
+
+Process finished with exit code 0
+
+```
 
 
+**Analisis Kode Program di atas yaitu:**
+
+Pada program di atas menggunakan kata kunci Exception yaitu `try` dan `catch`. Yang membedakan antara `Latihan1` adalah program ini menggunakan percabangan `if`. Dimana program ini melakukan sebuah pengkondisian dengan melibatkan `try-catch`. Berdasarkan output di atas, dapat di analisis bahwa `blok-try` berfungsi untuk menampung pengkondisian yang pertama, dimana jika kita memasukkan angka di bawah 10 (angka < 10) maka keluaran dari program di atas yaitu `"Angka kurang dari atau sama dengan 10"`. Sedangkan pengkondisian kedua terdapat di `blok-catch` yang menampung kondisi jika angka yang dimasukkan lebih dari 10 (angka > 10) maka keluaran dari program di atas yaitu `"Angka lebih dari 10 Selesai"`. Pada kasus ini try-catch juga berguna pada suatu pengkondisian dengan melakukan eksepsi.
+
+</br>
 
 3. Latihan "3" [(Link here)](https://github.com/womenincode/20104014_Amita-Putry-Prasasti_S1SEA_Pemrograman2/blob/modul9/src/modul9/latihan/Latihan3.java)
 
@@ -220,7 +244,9 @@ public class Latihan3 {
 }
 ```
 
-> Analisis Kode Program di atas yaitu :
+**Analisis Kode Program di atas yaitu :**
+
+Pada program di atas. menggunakan kata kunci `try`, `catch`, dan `throw`. Seperti yang dilihat, kode diatas juga melakukan `inheritance` atau pewarisan pada 3 class, yaitu `class ExceptionA`, `class ExceptionB`, dan `class ExceptionC`. Pada masing-masing class dimasukkan ke dalam `blok-catch` untuk melakukan eksekusi. Pada `blok-try` yang pertama program melakukan eksekusi pada `class ExceptionC` dimana jika class tersebut memiliki throuble maka akan di lemparkan ke  `blok-catch` sehingga mengeluarkan `INFORMATION_MESSAGE` yaitu "ExceptionC". Fungsi dari pada `INFORMATION_MESSAGE` adalah untuk memuncul sebuah `message box` seperti pop-up yang mengeluarkan pesan peringatan. Blok-try yang pertama berlaku juga bagi `blok-try` yang kedua, dimana class `ExceptionB` yang melakukan eksepsi.
 
 <hr>
 
