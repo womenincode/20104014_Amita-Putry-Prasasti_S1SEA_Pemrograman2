@@ -157,7 +157,7 @@ Process finished with exit code 0
 
 **Analisis Kode Program di atas yaitu:**
 
-Pada kode di atas menggunakan kata kunci ekpensi yaitu `throw`, `try`, dan `catch`. Dimana output dari program di atas menyatakan `"File Tidak Ada"`, hal itu dikarenakan pada  `blok-try` yang berisi `method1` tidak ada data yang dimasukkan atau file yang diletakkan pada method tersebut, sehingga program melemparkan eksepsi ke `blok-catch` dan program mengeluarkan pesan output `File Tidak Ada` berdasarkan perintah di dalam `catch` yaitu `FileNotFoundException ex`.
+Pada program di atas menggunakan kata kunci ekpensi yaitu `throw`, `try`, dan `catch`. Dimana output dari program di atas menyatakan `"File Tidak Ada"`, hal itu dikarenakan pada  `blok-try` yang berisi `method1` tidak ada data yang dimasukkan atau file yang diletakkan pada method tersebut, sehingga program melemparkan eksepsi ke `blok-catch` dan program mengeluarkan pesan output `File Tidak Ada` berdasarkan perintah di dalam `catch` yaitu `FileNotFoundException ex`.
 
 </br>
 
@@ -246,7 +246,7 @@ public class Latihan3 {
 
 **Analisis Kode Program di atas yaitu :**
 
-Pada program di atas. menggunakan kata kunci `try`, `catch`, dan `throw`. Seperti yang dilihat, kode diatas juga melakukan `inheritance` atau pewarisan pada 3 class, yaitu `class ExceptionA`, `class ExceptionB`, dan `class ExceptionC`. Pada masing-masing class dimasukkan ke dalam `blok-catch` untuk melakukan eksekusi. Pada `blok-try` yang pertama program melakukan eksekusi pada `class ExceptionC` dimana jika class tersebut memiliki throuble maka akan di lemparkan ke  `blok-catch` sehingga mengeluarkan `INFORMATION_MESSAGE` yaitu "ExceptionC". Fungsi dari pada `INFORMATION_MESSAGE` adalah untuk memuncul sebuah `message box` seperti pop-up yang mengeluarkan pesan peringatan. Blok-try yang pertama berlaku juga bagi `blok-try` yang kedua, dimana class `ExceptionB` yang melakukan eksepsi.
+Pada program di atas menggunakan kata kunci `try`, `catch`, dan `throw`. Seperti yang dilihat, kode diatas juga melakukan `inheritance` atau pewarisan pada 3 class, yaitu `class ExceptionA`, `class ExceptionB`, dan `class ExceptionC`. Pada masing-masing class dimasukkan ke dalam `blok-catch` untuk melakukan eksekusi. Pada `blok-try` yang pertama program melakukan eksekusi pada `class ExceptionC` dimana jika class tersebut memiliki throuble maka akan di lemparkan ke  `blok-catch` sehingga mengeluarkan `INFORMATION_MESSAGE` yaitu "ExceptionC". Fungsi dari pada `INFORMATION_MESSAGE` adalah untuk memuncul sebuah `message box` seperti pop-up yang mengeluarkan pesan peringatan. Blok-try yang pertama berlaku juga bagi `blok-try` yang kedua, dimana class `ExceptionB` yang melakukan eksepsi.
 
 <hr>
 
