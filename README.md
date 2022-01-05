@@ -1,5 +1,3 @@
-# 20104014_Amita-Putry-Prasasti_S1SEA_Pemrograman2
-
 # Tugas Besar : SnackGame
 
 ## Praktikum Pemrograman 2
